@@ -7,8 +7,10 @@ int main(void)
 	int b;
 	int y;
 
-	printf("the first number rep a and the second number rep b: ");
-	scanf("%d%d", &a, &b);
+	printf("Enter a: ");
+	scanf("%d", &a);
+	printf("Enter b: ");
+	scanf("%d", &b);
 	y = a;
 	a = b;
 	b = y;
