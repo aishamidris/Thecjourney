@@ -15,7 +15,7 @@ int main(void)
 		printf("%10d%10d\n", i, square);
 		++i;
 
-		square += odd;
+		//square += odd;
 	}
 	return 0;
 }
